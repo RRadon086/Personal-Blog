@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-CN'
+title = '氡RRadon的博客'
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
