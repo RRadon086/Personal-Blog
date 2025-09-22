@@ -1,6 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://rradon.pages.dev/'
 languageCode = 'zh-CN'
 title = '氡RRadon的博客'
+hasCJKLanguage = true
+
 [module]
 [[module.imports]]
 disable = false

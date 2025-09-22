@@ -1,0 +1,43 @@
+show_reading_time = true
+site_logo = "img/logo2.png"
+date_format = "2006年1月2日"
+read_more_copy = "查看全文"
+
+[ananke.social.follow]
+new_window_icon = false
+networks = [
+	"contact",
+  	"bilibili",
+  	"github",
+  	"x-twitter"
+]
+
+[ananke.social.x-twitter]
+username = "Radon086"
+label = "X"
+
+[ananke.social.bilibili]
+username = "52572607"
+label = "哔哩哔哩"
+
+[ananke.social.github]
+username = "RRadon086"
+label = "GitHub"
+profilelink = "https://github.com/RRadon086/Personal-Blog"
+
+[ananke.social.contact]
+username = "radon086@foxmail.com"
+
+[ananke.social.networks.bilibili]
+slug = "bilibili"
+label = "哔哩哔哩"
+color = "#00a1d6"
+profile = "https://space.bilibili.com/%s"
+icon = "bilibili"
+share = false
+
+[ananke.social.networks.contact]
+slug = "contact"
+label = "电子邮件"
+profile = "mailto:%s"
+icon = "envelope"

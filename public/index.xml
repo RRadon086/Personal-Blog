@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>氡RRadon的博客</title>
-    <link>http://localhost:1313/</link>
+    <link>https://rradon.pages.dev/</link>
     <description>Recent content on 氡RRadon的博客</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 21 Sep 2025 08:52:54 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://rradon.pages.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>切换为Cloudflare Pages托管</title>
-      <link>http://localhost:1313/posts/swiching-vercel-to-cloudfalre-pages/</link>
+      <link>https://rradon.pages.dev/posts/swiching-vercel-to-cloudflare-pages/</link>
       <pubDate>Sun, 21 Sep 2025 08:52:54 +0800</pubDate>
-      <guid>http://localhost:1313/posts/swiching-vercel-to-cloudfalre-pages/</guid>
-      <description>&lt;p&gt;原本部署到了Vercel上托管，但Vercel的默认域名在国内有很严重的DNS污染，导致必须使用魔法才能访问（/TДT)/&lt;/p&gt;&#xA;&lt;p&gt;现在试一下Cloudflare的效果怎么样。&lt;/p&gt;&#xA;&lt;p&gt;eu.org的域名什么时候才能审核通过呢(º﹃º )&lt;/p&gt;</description>
+      <guid>https://rradon.pages.dev/posts/swiching-vercel-to-cloudflare-pages/</guid>
+      <description>&lt;p&gt;原本部署到了Vercel上托管，但Vercel的默认域名在国内被墙了，导致必须使用魔法才能访问（/TДT)/&lt;/p&gt;&#xA;&lt;p&gt;现在试一下Cloudflare的效果怎么样。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我的第一篇博客文章</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://rradon.pages.dev/posts/my-first-post/</link>
       <pubDate>Fri, 19 Sep 2025 15:52:20 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;&#xA;&lt;p&gt;这是我的第一篇博客文章(｡･ω･｡)&lt;/p&gt;&#xA;&lt;p&gt;我的博客使用Hugo框架构建，然后部署到Vercel平台上托管。&lt;/p&gt;&#xA;&lt;p&gt;但我向eu.org申请的域名还没有通过审核，所以博客暂时只能使用Vercel的默认域名访问(´；ω；`)&lt;/p&gt;&#xA;&lt;p&gt;我暂时还不会对博客进行客制化更改，比如更换我自己喜欢的主题外观、添加文章评论功能、在文章中插入图片等等。而且Git的命令我也一窍不通，Markdown的语法也不懂。&lt;/p&gt;&#xA;&lt;p&gt;不过我会继续学习的。以后我会不定期在这个博客上发布自己的学习笔记和碎碎念文章。&lt;/p&gt;&#xA;&lt;p&gt;记得常来看看哦(=・ω・=)&lt;/p&gt;</description>
+      <guid>https://rradon.pages.dev/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World!&lt;/h2&gt;&#xA;&lt;p&gt;这是我的第一篇博客文章(｡･ω･｡)&lt;/p&gt;&#xA;&lt;p&gt;我的博客使用Hugo框架构建，然后部署到Vercel平台上托管。&lt;/p&gt;&#xA;&lt;p&gt;但我向eu.org申请的域名还没有通过审核，所以博客暂时只能使用Vercel的默认域名访问(´；ω；`)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
