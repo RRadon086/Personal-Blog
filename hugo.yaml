@@ -1,0 +1,100 @@
+baseURL: https://rradon.pages.dev/
+defaultContentLanguage: zh
+languageCode: zh-CN
+title: RRadon's Blog
+theme: PaperMod
+hasCJKLanguage: true
+
+params:
+
+  defaultTheme: auto
+
+  DateFormat: "2006年1月2日 15:04"
+
+  ShowWordCount: true
+
+  label:
+    text: '氡RRadon的博客'
+    icon: '/apple-touch-icon.png'
+    iconHeight: 35
+
+  schema:
+    publisherType: 'Person'
+    sameAs: ["https://space.bilibili.com/52572607"]
+
+  disableThemeToggle: false
+
+  homeInfoParams:
+    Title: 你发现了我的小窝～(∠・ω< )⌒★
+    Content: 这里会记录一些关于我的日常_(:з」∠)_
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:radon086@foxmail.com"
+    - name: "bilibili"
+      url: "https://space.bilibili.com/52572607"
+    - name: "GitHub"
+      url: "https://github.com/RRadon086/Personal-Blog"
+    - name: "X"
+      url: "https://x.com/Radon086"
+
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+  ShowShareButtons: false
+  ShareButtons: ["x", "telegram"]
+
+  ShowReadingTime: false
+
+  ShowBreadCrumbs: true
+
+  editPost:
+    URL: "https://github.com/RRadon086/Personal-Blog/tree/master/content"
+    Text: "反馈修改建议"
+    appendFilePath: true
+
+  ShowPostNavLinks: true
+
+  ShowCodeCopyButtons: true
+
+  comments: false
+
+  # assets:
+  #   favicon: "/favicon.ico"
+  #   favicon16x16: "/favicon-16x16.png"
+  #   favicon32x32: "/favicon-32x32.png"
+  #   apple_touch_icon: "/apple-touch-icon.png"
+  #   android_chrome192x192: "/android-chrome-192x192.png"
+  #   android_chrome512x512: "/android-chrome-512x512.png"
+
+menu:
+  main:
+    - identifier: home
+      name: 首页
+      url: //
+      weight: 10
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 20
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 30
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 40
