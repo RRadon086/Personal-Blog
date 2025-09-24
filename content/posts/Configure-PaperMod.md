@@ -29,43 +29,43 @@ PaperMod虽然自定义程度比默认的Ananke要高一些，但有些细节还
 
 附：文档中有许多我不太明白的特性、一些不适用于全局配置文件的配置项、以及后续再做完善的功能，这里简单做一下记录备忘，以后再慢慢研究。
 
-1.文章封面图/禁用响应式封面图片/启用封面图链接 https://github.com/adityatelange/hugo-PaperMod/wiki/Features#post-cover-image
+1. [文章封面图/禁用响应式封面图片/启用封面图链接](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#post-cover-image)
 
-2.从搜索结果中隐藏特定页面/搜索页快捷键 https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
+2. [从搜索结果中隐藏特定页面/搜索页快捷键](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page)
 
-3.Page Bundle页面捆绑包 https://gohugo.io/content-management/page-bundles
+3. [Page Bundle页面捆绑包](https://gohugo.io/content-management/page-bundles)
 
-4.社交平台链接 https://github.com/adityatelange/hugo-PaperMod/wiki/Icons#social-icons
+4. [社交平台链接](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons#social-icons)
 
-5.显示文章目录 https://github.com/adityatelange/hugo-PaperMod/wiki/Features#show-table-of-contents-toc-on-blog-post
+5. [显示文章目录](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#show-table-of-contents-toc-on-blog-post)
 
-6.在特定页面禁用面包屑导航 https://github.com/adityatelange/hugo-PaperMod/wiki/Features#breadcrumb-navigation
+6. [在特定页面禁用面包屑导航](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#breadcrumb-navigation)
 
-7.页面快捷键 https://github.com/adityatelange/hugo-PaperMod/wiki/Features#accesskeys
+7. [页面快捷键](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#accesskeys)
 
-8.社交媒体卡片 https://github.com/adityatelange/hugo-PaperMod/wiki/Features#twitter-cards-support
+8. [社交媒体卡片](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#twitter-cards-support)
 
-9.置顶文章 https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#pin-a-post
+9. [置顶文章](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#pin-a-post)
 
-10.在Markdown中居中图片 https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#centering-image-in-markdown
+10. [在Markdown中居中图片](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#centering-image-in-markdown)
 
-11.主页上只显示一个文件夹或部分的文章 https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#posts-from-only-one-foldersection-visible-on-home-page
+11. [主页上只显示一个文件夹或部分的文章](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#posts-from-only-one-foldersection-visible-on-home-page)
 
-12.PaperMod可用变量列表 https://github.com/adityatelange/hugo-PaperMod/wiki/Variables
+12. [PaperMod可用变量列表](https://github.com/adityatelange/hugo-PaperMod/wiki/Variables)
 
-13.Canonical URL（标准网址）
+13. Canonical URL（标准网址）
 
-14.优化配置文件和Markdow的换行
+14. 优化配置文件和Markdow的换行
 
 
 **搭建博客时用到的参考资料（算是个感谢名单吧hhh）**
 
-Hugo Getting started https://gohugo.io/getting-started/
+[Hugo Getting started](https://gohugo.io/getting-started)
 
-Ananke Wiki https://github.com/theNewDynamic/gohugo-theme-ananke/wiki
+[Ananke Wiki](https://github.com/theNewDynamic/gohugo-theme-ananke/wiki)
 
-PaperMod Wiki https://github.com/adityatelange/hugo-PaperMod/wiki
+[PaperMod Wiki](https://github.com/adityatelange/hugo-PaperMod/wiki)
 
-B站UP主二叉树树大佬的文章 https://2x.nz/posts/hugo
+[B站UP主二叉树树大佬的文章](https://2x.nz/posts/hugo)
 
 LMArena上的gpt-5-search和gemini-2.5-pro-grounding（ai真是太好用了！感觉离开ai要寸步难行力。LMArena也是个非常不错的平台，虽然功能性相比各家ai自己的网站有些简陋……）

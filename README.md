@@ -1,3 +1,3 @@
-使用Hugo框架搭建 https://gohugo.io
+由[Hugo](https://gohugo.io)和[PaperMod](https://github.com/adityatelange/hugo-PaperMod)驱动
 
-主题为PaperMod https://github.com/adityatelange/hugo-PaperMod
+[Cloudflare Pages](https://pages.cloudflare.com)提供托管服务
