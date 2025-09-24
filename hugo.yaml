@@ -4,6 +4,11 @@ languageCode: zh-CN
 title: RRadon's Blog
 theme: PaperMod
 hasCJKLanguage: true
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
 
 params:
 
@@ -37,12 +42,6 @@ params:
       url: "https://github.com/RRadon086/Personal-Blog"
     - name: "X"
       url: "https://x.com/Radon086"
-
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON
 
   fuseOpts:
     isCaseSensitive: false
