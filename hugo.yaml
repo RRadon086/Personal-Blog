@@ -27,7 +27,7 @@ params:
     publisherType: 'Person'
     sameAs: ["https://space.bilibili.com/52572607"]
 
-  disableThemeToggle: false
+  disableThemeToggle: true
 
   homeInfoParams:
     Title: 你发现了我的小窝～(∠・ω< )⌒★
@@ -69,7 +69,7 @@ params:
 
   ShowCodeCopyButtons: true
 
-  comments: false
+  comments: true
 
   # assets:
   #   favicon: "/favicon.ico"
@@ -82,18 +82,22 @@ params:
 menu:
   main:
     - identifier: home
-      name: 首页
+      name: 主页
       url: //
       weight: 10
     - identifier: search
       name: 搜索
       url: /search/
       weight: 20
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 30
     - identifier: categories
       name: 分类
       url: /categories/
-      weight: 30
+      weight: 40
     - identifier: archives
       name: 归档
       url: /archives/
-      weight: 40
+      weight: 50

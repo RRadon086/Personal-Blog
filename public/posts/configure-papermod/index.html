@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="zh" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>从Ananke主题切换为PaperMod主题 | RRadon&#39;s Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="默认的Ananke主题自定义项太少了，只好切换为社区评价比较好的PaperMod主题">
 <meta name="author" content="">
-<link rel="canonical" href="https://rradon.pages.dev/posts/configure-papermod/">
+<link rel="canonical" href="http://localhost:1313/posts/configure-papermod/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b489a6d73b9d5f542e10296b5fbfe24c07a73618c7ca7efba908fadedc6200f9.css" integrity="sha256-tImm1zudX1QuEClrX7/iTAenNhjHyn77qQj63txiAPk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://rradon.pages.dev/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://rradon.pages.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://rradon.pages.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://rradon.pages.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://rradon.pages.dev/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="zh" href="https://rradon.pages.dev/posts/configure-papermod/">
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/posts/configure-papermod/">
 <noscript>
     <style>
         #theme-toggle,
@@ -55,78 +55,12 @@
         }
 
     </style>
-</noscript><meta property="og:url" content="https://rradon.pages.dev/posts/configure-papermod/">
-  <meta property="og:site_name" content="RRadon&#39;s Blog">
-  <meta property="og:title" content="从Ananke主题切换为PaperMod主题">
-  <meta property="og:description" content="默认的Ananke主题自定义项太少了，只好切换为社区评价比较好的PaperMod主题">
-  <meta property="og:locale" content="zh-CN">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-09-24T16:14:40+08:00">
-    <meta property="article:modified_time" content="2025-09-24T16:14:40+08:00">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="从Ananke主题切换为PaperMod主题">
-<meta name="twitter:description" content="默认的Ananke主题自定义项太少了，只好切换为社区评价比较好的PaperMod主题">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "文章",
-      "item": "https://rradon.pages.dev/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "从Ananke主题切换为PaperMod主题",
-      "item": "https://rradon.pages.dev/posts/configure-papermod/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "从Ananke主题切换为PaperMod主题",
-  "name": "从Ananke主题切换为PaperMod主题",
-  "description": "默认的Ananke主题自定义项太少了，只好切换为社区评价比较好的PaperMod主题",
-  "keywords": [
-    
-  ],
-  "articleBody": "（写完才发现作为更新维护日志来说有点啰嗦了_(:з」∠)_ ）\n之前跟着Ananke主题的文档配置了一天，最后发现还是有点过于毛胚房了，于是在ai的推荐下，我尝试切换为PaperMod主题。又跟着PaperMod的文档配置了两天，主要功能已经完善的差不多了，起码可以正常开始进行文章写作了。\n现在要做的事情应该还剩，在博客文章中插入图片（要学习使用Hugo文档中的Page Bundle页面捆绑包部分）、文章评论功能（学习配置Giscus评论系统）、完善博客文章的预生成模板、学习Markdown语法。\n看了一些有关eu.org域名审核的帖子，基本都说现在好像已经停止审核发放新的域名了，估计我申请的域名也没什么希望了。现在用的是Cloudflare Pages默认的pages.dev域名，好在没像Vercel那样完全无法访问。\n不过众所周知Cloudflare在大陆并没有专门的服务器，使用ITDOG对博客域名进行Ping测试（运营商DNS），江苏的电信、联通、移动节点全部超时，怎么测都是一片红，更换为公共DNS（如阿里云223.5.5.5）就一切正常了，偶有几个节点显示超时；进行Tcping测试，运营商DNS，结果全绿，偶有几个节点显示超时，不过延迟还是有点高的，几乎都是浅绿色（延迟150ms+）；使用ITDOG的“网站测速”功能（官网描述为“该应用可从各地区、各线路发起HTTP速度测试；可分析：解析/连接/重定向/SSL/状态码/Head信息等”）测试博客域名，全国各地所有的中国移动测试节点全部为红色超时，但我让身边的人使用移动流量卡访问博客，是可以打开的，加载速度也正常；\nPaperMod虽然自定义程度比默认的Ananke要高一些，但有些细节还是不够完善。问了GPT和Gemini，想要按照自己的想法进行自定义，需要学习一些前端开发的知识，起码要会写HTML和CSS代码。我不怎么会编程，想想就头大……\n说实话，没有计算机专业知识，尤其是计算机网络相关的，上面提到的这些名词我都不理解是什么意思……\n要继续使用Cloudflare Pages的默认域名，还是自己去买一个域名呢？看了下NameSilo上.top域名的报价，续费一年要35元，Spaceship上的.top域名续费一年要27元。一涉及到钱的问题果然就很纠结……而且问了一下群友，说.top的管局是国内的一家公司，会无缘无故停你域名的，他之前有个域名就被搞了，不知道是真是假。\n当初只是想在互联网小角落拥有自己的一处小角落，可以随心所欲地表达自己。现在想想看，要折腾的东西其实还挺多的，感觉对于我来说都比较麻烦，而且这些知识还不算是目前我计划的未来发展方向能用到的。有一种从种小麦开始做面包的既视感（）\n附：文档中有许多我不太明白的特性、一些不适用于全局配置文件的配置项、以及后续再做完善的功能，这里简单做一下记录备忘，以后再慢慢研究。\n文章封面图/禁用响应式封面图片/启用封面图链接\n从搜索结果中隐藏特定页面/搜索页快捷键\nPage Bundle页面捆绑包\n社交平台链接\n显示文章目录\n在特定页面禁用面包屑导航\n页面快捷键\n社交媒体卡片\n置顶文章\n在Markdown中居中图片\n主页上只显示一个文件夹或部分的文章\nPaperMod可用变量列表\nCanonical URL（标准网址）\n优化配置文件和Markdow的换行\n搭建博客时用到的参考资料（算是个感谢名单吧hhh）\nHugo Getting started\nAnanke Wiki\nPaperMod Wiki\nB站UP主二叉树树大佬的文章\nLMArena上的gpt-5-search和gemini-2.5-pro-grounding（ai真是太好用了！感觉离开ai要寸步难行力。LMArena也是个非常不错的平台，虽然功能性相比各家ai自己的网站有些简陋……）\n",
-  "wordCount" : "1518",
-  "inLanguage": "zh",
-  "datePublished": "2025-09-24T16:14:40+08:00",
-  "dateModified": "2025-09-24T16:14:40+08:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://rradon.pages.dev/posts/configure-papermod/"
-  },
-  "publisher": {
-    "@type": "Person",
-    "name": "RRadon's Blog",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://rradon.pages.dev/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -135,50 +69,35 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://rradon.pages.dev/" accesskey="h" title="氡RRadon的博客 (Alt + H)">
-                <img src="https://rradon.pages.dev/apple-touch-icon.png" alt="" aria-label="logo"
+            <a href="http://localhost:1313/" accesskey="h" title="氡RRadon的博客 (Alt + H)">
+                <img src="http://localhost:1313/apple-touch-icon.png" alt="" aria-label="logo"
                     height="35">氡RRadon的博客</a>
             <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="https://rradon.pages.dev/" title="首页">
-                    <span>首页</span>
+                <a href="http://localhost:1313/" title="主页">
+                    <span>主页</span>
                 </a>
             </li>
             <li>
-                <a href="https://rradon.pages.dev/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="搜索 (Alt &#43; /)" accesskey=/>
                     <span>搜索</span>
                 </a>
             </li>
             <li>
-                <a href="https://rradon.pages.dev/categories/" title="分类">
+                <a href="http://localhost:1313/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/categories/" title="分类">
                     <span>分类</span>
                 </a>
             </li>
             <li>
-                <a href="https://rradon.pages.dev/archives/" title="归档">
+                <a href="http://localhost:1313/archives/" title="归档">
                     <span>归档</span>
                 </a>
             </li>
@@ -189,23 +108,23 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://rradon.pages.dev/">主页</a>&nbsp;»&nbsp;<a href="https://rradon.pages.dev/posts/">文章</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">主页</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">文章</a></div>
     <h1 class="post-title entry-hint-parent">
       从Ananke主题切换为PaperMod主题
     </h1>
-    <div class="post-meta"><span title='2025-09-24 16:14:40 +0800 CST'>2025年9月24日 16:14</span>&nbsp;·&nbsp;1518 字&nbsp;|&nbsp;<a href="https://github.com/RRadon086/Personal-Blog/tree/master/content/posts/Configure-PaperMod.md" rel="noopener noreferrer edit" target="_blank">反馈修改建议</a>
+    <div class="post-meta"><span title='2025-09-24 16:14:40 +0800 CST'>2025年9月24日 16:14</span>&nbsp;·&nbsp;1517 字&nbsp;|&nbsp;<a href="https://github.com/RRadon086/Personal-Blog/tree/master/content/posts/Configure-PaperMod/index.md" rel="noopener noreferrer edit" target="_blank">反馈修改建议</a>
 
 </div>
   </header> 
   <div class="post-content"><p>（写完才发现作为更新维护日志来说有点啰嗦了_(:з」∠)_ ）</p>
 <p>之前跟着Ananke主题的文档配置了一天，最后发现还是有点过于毛胚房了，于是在ai的推荐下，我尝试切换为PaperMod主题。又跟着PaperMod的文档配置了两天，主要功能已经完善的差不多了，起码可以正常开始进行文章写作了。</p>
-<p>现在要做的事情应该还剩，在博客文章中插入图片（要学习使用Hugo文档中的Page Bundle页面捆绑包部分）、文章评论功能（学习配置Giscus评论系统）、完善博客文章的预生成模板、学习Markdown语法。</p>
+<p>现在要做的事情应该还剩，在博客文章中插入图片（要学习使用Hugo文档中的Page bundle页面捆绑包部分）、文章评论功能（学习配置Giscus评论系统）、完善博客文章的预生成模板、学习Markdown语法。</p>
 <p>看了一些有关eu.org域名审核的帖子，基本都说现在好像已经停止审核发放新的域名了，估计我申请的域名也没什么希望了。现在用的是Cloudflare Pages默认的pages.dev域名，好在没像Vercel那样完全无法访问。</p>
 <p>不过众所周知Cloudflare在大陆并没有专门的服务器，使用ITDOG对博客域名进行Ping测试（运营商DNS），江苏的电信、联通、移动节点全部超时，怎么测都是一片红，更换为公共DNS（如阿里云223.5.5.5）就一切正常了，偶有几个节点显示超时；进行Tcping测试，运营商DNS，结果全绿，偶有几个节点显示超时，不过延迟还是有点高的，几乎都是浅绿色（延迟150ms+）；使用ITDOG的“网站测速”功能（官网描述为“该应用可从各地区、各线路发起HTTP速度测试；可分析：解析/连接/重定向/SSL/状态码/Head信息等”）测试博客域名，全国各地所有的中国移动测试节点全部为红色超时，但我让身边的人使用移动流量卡访问博客，是可以打开的，加载速度也正常；</p>
 <p>PaperMod虽然自定义程度比默认的Ananke要高一些，但有些细节还是不够完善。问了GPT和Gemini，想要按照自己的想法进行自定义，需要学习一些前端开发的知识，起码要会写HTML和CSS代码。我不怎么会编程，想想就头大……</p>
 <p>说实话，没有计算机专业知识，尤其是计算机网络相关的，上面提到的这些名词我都不理解是什么意思……</p>
 <p>要继续使用Cloudflare Pages的默认域名，还是自己去买一个域名呢？看了下NameSilo上.top域名的报价，续费一年要35元，Spaceship上的.top域名续费一年要27元。一涉及到钱的问题果然就很纠结……而且问了一下群友，说.top的管局是国内的一家公司，会无缘无故停你域名的，他之前有个域名就被搞了，不知道是真是假。</p>
-<p>当初只是想在互联网小角落拥有自己的一处小角落，可以随心所欲地表达自己。现在想想看，要折腾的东西其实还挺多的，感觉对于我来说都比较麻烦，而且这些知识还不算是目前我计划的未来发展方向能用到的。有一种从种小麦开始做面包的既视感（）</p>
+<p>最初只是想在互联网上拥有自己的一处小角落，可以随心所欲地表达自己。现在想想看，要折腾的东西其实还挺多的，感觉对于我来说都比较麻烦，而且这些知识还不算是目前我计划的未来发展方向能用到的。有一种从种小麦开始做面包的既视感（）</p>
 <p>附：文档中有许多我不太明白的特性、一些不适用于全局配置文件的配置项、以及后续再做完善的功能，这里简单做一下记录备忘，以后再慢慢研究。</p>
 <ol>
 <li>
@@ -215,7 +134,7 @@
 <p><a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page">从搜索结果中隐藏特定页面/搜索页快捷键</a></p>
 </li>
 <li>
-<p><a href="https://gohugo.io/content-management/page-bundles">Page Bundle页面捆绑包</a></p>
+<p><a href="https://gohugo.io/content-management/page-bundles">Page bundle页面捆绑包</a></p>
 </li>
 <li>
 <p><a href="https://github.com/adityatelange/hugo-PaperMod/wiki/Icons#social-icons">社交平台链接</a></p>
@@ -248,7 +167,7 @@
 <p>Canonical URL（标准网址）</p>
 </li>
 <li>
-<p>优化配置文件和Markdow的换行</p>
+<p>优化配置文件和Markdown的换行</p>
 </li>
 </ol>
 <p><strong>搭建博客时用到的参考资料（算是个感谢名单吧hhh）</strong></p>
@@ -265,19 +184,39 @@
     <ul class="post-tags">
     </ul>
 <nav class="paginav">
-  <a class="next" href="https://rradon.pages.dev/posts/swiching-vercel-to-cloudflare-pages/">
+  <a class="prev" href="http://localhost:1313/posts/add-comments-pictures/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>在文章中插入图片，引入Giscus评论系统</span>
+  </a>
+  <a class="next" href="http://localhost:1313/posts/swiching-vercel-to-cloudflare-pages/">
     <span class="title">下一页 »</span>
     <br>
     <span>切换为Cloudflare Pages托管</span>
   </a>
 </nav>
 
-  </footer>
+  </footer><script src="https://giscus.app/client.js"
+        data-repo="RRadon086/Personal-Blog"
+        data-repo-id="R_kgDOPz1Sjw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOPz1Sj84Cv3zE"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://rradon.pages.dev/">RRadon&#39;s Blog</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">RRadon&#39;s Blog</a></span> · 
 
     <span>
         Powered by
@@ -331,18 +270,6 @@
             mybutton.style.opacity = "0";
         }
     };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
 
 </script>
 <script>

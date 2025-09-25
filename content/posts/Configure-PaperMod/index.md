@@ -9,7 +9,7 @@ categories: '更新维护日志'
 
 之前跟着Ananke主题的文档配置了一天，最后发现还是有点过于毛胚房了，于是在ai的推荐下，我尝试切换为PaperMod主题。又跟着PaperMod的文档配置了两天，主要功能已经完善的差不多了，起码可以正常开始进行文章写作了。
 
-现在要做的事情应该还剩，在博客文章中插入图片（要学习使用Hugo文档中的Page Bundle页面捆绑包部分）、文章评论功能（学习配置Giscus评论系统）、完善博客文章的预生成模板、学习Markdown语法。
+现在要做的事情应该还剩，在博客文章中插入图片（要学习使用Hugo文档中的Page bundle页面捆绑包部分）、文章评论功能（学习配置Giscus评论系统）、完善博客文章的预生成模板、学习Markdown语法。
 
 
 看了一些有关eu.org域名审核的帖子，基本都说现在好像已经停止审核发放新的域名了，估计我申请的域名也没什么希望了。现在用的是Cloudflare Pages默认的pages.dev域名，好在没像Vercel那样完全无法访问。
@@ -33,7 +33,7 @@ PaperMod虽然自定义程度比默认的Ananke要高一些，但有些细节还
 
 2. [从搜索结果中隐藏特定页面/搜索页快捷键](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page)
 
-3. [Page Bundle页面捆绑包](https://gohugo.io/content-management/page-bundles)
+3. [Page bundle页面捆绑包](https://gohugo.io/content-management/page-bundles)
 
 4. [社交平台链接](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons#social-icons)
 
@@ -55,7 +55,7 @@ PaperMod虽然自定义程度比默认的Ananke要高一些，但有些细节还
 
 13. Canonical URL（标准网址）
 
-14. 优化配置文件和Markdow的换行
+14. 优化配置文件和Markdown的换行
 
 
 **搭建博客时用到的参考资料（算是个感谢名单吧hhh）**
