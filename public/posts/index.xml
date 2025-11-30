@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>文章 on RRadon&#39;s Blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://rradon.pages.dev/posts/</link>
     <description>Recent content in 文章 on RRadon&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 25 Sep 2025 17:25:56 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Nov 2025 13:39:44 +0800</lastBuildDate>
+    <atom:link href="https://rradon.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用Ultimate Vocal Remover v5提取歌曲的人声和伴奏</title>
+      <link>https://rradon.pages.dev/posts/uvr5-separating-vocals-and-accompaniment/</link>
+      <pubDate>Sun, 30 Nov 2025 13:39:44 +0800</pubDate>
+      <guid>https://rradon.pages.dev/posts/uvr5-separating-vocals-and-accompaniment/</guid>
+      <description>简单记录一下UVR5的使用</description>
+    </item>
     <item>
       <title>在文章中插入图片，引入Giscus评论系统</title>
-      <link>http://localhost:1313/posts/add-comments-pictures/</link>
+      <link>https://rradon.pages.dev/posts/add-comments-pictures/</link>
       <pubDate>Thu, 25 Sep 2025 17:25:56 +0800</pubDate>
-      <guid>http://localhost:1313/posts/add-comments-pictures/</guid>
+      <guid>https://rradon.pages.dev/posts/add-comments-pictures/</guid>
       <description>学会在文章中插入图片的方法了。而且现在也支持使用GitHub账号发表评论啦！</description>
     </item>
     <item>
       <title>从Ananke主题切换为PaperMod主题</title>
-      <link>http://localhost:1313/posts/configure-papermod/</link>
+      <link>https://rradon.pages.dev/posts/configure-papermod/</link>
       <pubDate>Wed, 24 Sep 2025 16:14:40 +0800</pubDate>
-      <guid>http://localhost:1313/posts/configure-papermod/</guid>
+      <guid>https://rradon.pages.dev/posts/configure-papermod/</guid>
       <description>默认的Ananke主题自定义项太少了，只好切换为社区评价比较好的PaperMod主题</description>
     </item>
     <item>
       <title>切换为Cloudflare Pages托管</title>
-      <link>http://localhost:1313/posts/swiching-vercel-to-cloudflare-pages/</link>
+      <link>https://rradon.pages.dev/posts/swiching-vercel-to-cloudflare-pages/</link>
       <pubDate>Sun, 21 Sep 2025 08:52:54 +0800</pubDate>
-      <guid>http://localhost:1313/posts/swiching-vercel-to-cloudflare-pages/</guid>
+      <guid>https://rradon.pages.dev/posts/swiching-vercel-to-cloudflare-pages/</guid>
       <description>Vercel的默认域名被墙力</description>
     </item>
     <item>
       <title>我的第一篇博客文章</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://rradon.pages.dev/posts/my-first-post/</link>
       <pubDate>Fri, 19 Sep 2025 15:52:20 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://rradon.pages.dev/posts/my-first-post/</guid>
       <description>Hello World!</description>
     </item>
   </channel>
