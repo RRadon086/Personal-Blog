@@ -7,7 +7,7 @@ categories: '音乐制作'
 ---
 Ultimate Vocal Remover可以使用AI技术，将歌曲或音频的人声、伴奏、乐器分离为不同音轨。
 
-官网：https://ultimatevocalremover.com
+官网：[https://ultimatevocalremover.com](https://ultimatevocalremover.com)
 
 下载前请先阅读[**Readme中的说明**](https://github.com/Anjok07/ultimatevocalremovergui?tab=readme-ov-file#installation)，确保自己的电脑系统已经达到了官方的配置要求。
 
