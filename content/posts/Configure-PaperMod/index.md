@@ -1,7 +1,7 @@
 ---
 date: '2025-09-24T16:14:40+08:00'
 draft: false
-title: '从Ananke主题切换为PaperMod主题'
+title: '由Ananke主题切换为PaperMod主题'
 summary: '默认的Ananke主题自定义项太少了，只好切换为社区评价比较好的PaperMod主题'
 categories: '更新维护日志'
 ---
