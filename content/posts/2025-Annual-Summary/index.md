@@ -1,7 +1,7 @@
 ---
 date: '2025-12-31T02:04:28+08:00'
 draft: false
-title: '2025年度总结'
+title: '2025年终总结'
 summary: '感觉更像是在闲聊'
 categories: '日常杂谈'
 ---
