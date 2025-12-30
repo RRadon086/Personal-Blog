@@ -99,7 +99,7 @@
   "keywords": [
     
   ],
-  "articleBody": "Ultimate Vocal Remover可以使用AI技术，将歌曲或音频的人声、伴奏、乐器分离为不同音轨。\n官网：https://ultimatevocalremover.com\n下载前请先阅读Readme中的说明，确保自己的电脑系统已经达到了官方的配置要求。\n首先前往UVR的下载页面，按照里面的安装说明选择对应的版本进行下载。由于我是AMD显卡，所以需要下载安装Beta版本的UVR5，这样可以调用DirectML来运行Roformer模型。\n本文所使用的UVR的版本号为v5.6。\n打开软件后，点击左下方的扳手图标🔧为软件的设置页面，然后选择上方菜单栏中的Download Center切换为模型下载页面。 询问了一下Gemini，得到如下回答，仅供参考。\n如果想要最通用、最平衡的人声伴奏分离，可以选择MDX-Net架构中的Roformer Model: BS-Roformer-Viperx-1297\n想要最干净的伴奏可以选择Roformer Model: MelBand Reformer Kim | Inst V2 by Unwa\n做伴奏，同时保留和声可以选择Roformer Model: Karaoke MelBand Reformer | (by aufr33 \u0026 vipex)\n去混响/去回声可以选择Roformer Model: BS Reformer Dereverb | (anvview edition)\n如果想要将歌曲细分为不同乐器音轨，可以选择另一个Demucs架构。\nDemucs v4: htdemucs_ft对标准的4分轨（鼓、贝斯、人声、其他） 来说效果是最好的。\nDemucs v4: htdemucs_6s则在标准4分轨的基础上加上了钢琴轨和吉他轨。\n下载好模型后，回到主界面，左侧的CHOOSE PROCESS METHOD和CHOOSE XXX MODEL可以选择你要使用的模型。 点击上方的Select Input按钮选择你要分离人声和伴奏的歌曲文件，Select Output按钮设置存放输出文件的目录。其他一些剩余功能，可以根据自己的实际情况进行设置。将鼠标悬停在设置项的名称上可以查看说明。 由于我的显卡只有8GB显存，如果使用BS-Roformer-Viperx-1297模型的话，还需要修改一下模型本身的配置文件，否则会爆显存然后软件报错。在左侧选择模型的下拉菜单里，点击Open Model Folder打开模型的文件夹，然后打开model_data\\mdx_c_configs文件夹里的model_bs_roformer_ep_317_sdr_12.9755.yaml（可以使用记事本打开），然后将chunk_size: 352800这一项改为chunk_size: 132300，这样可以降低每次需要存放到显存中进行计算的数据量。\n最后点击UVR5主界面下方的Start Processing并等待处理完毕，就可以在输出文件目录里看到分离好的歌曲人声和伴奏了。\n",
+  "articleBody": "Ultimate Vocal Remover可以使用AI技术，将歌曲或音频的人声、伴奏、乐器分离为不同音轨。\n官网：https://ultimatevocalremover.com\n下载前请先阅读Readme中的说明，确保自己的电脑系统已经达到了官方的配置要求。\n首先前往UVR的下载页面，按照里面的安装说明选择对应的版本进行下载。由于我是AMD显卡，所以需要下载安装Beta版本的UVR5，这样可以调用DirectML来运行Roformer模型。\n本文所使用的UVR的版本号为v5.6。\n打开软件后，点击左下方的扳手图标🔧为软件的设置页面，然后选择上方菜单栏中的Download Center切换为模型下载页面。 询问了一下Gemini，得到如下回答，仅供参考。\n如果想要最通用、最平衡的人声伴奏分离，可以选择MDX-Net架构中的Roformer Model: BS-Roformer-Viperx-1297\n想要最干净的伴奏可以选择Roformer Model: MelBand Roformer Kim | Inst V2 by Unwa\n做伴奏，同时保留和声可以选择Roformer Model: Karaoke MelBand Roformer | (by aufr33 \u0026 vipex)\n去混响/去回声可以选择Roformer Model: BS Roformer Dereverb | (anvview edition)\n如果想要将歌曲细分为不同乐器音轨，可以选择另一个Demucs架构。\nDemucs v4: htdemucs_ft对标准的4分轨（鼓、贝斯、人声、其他） 来说效果是最好的。\nDemucs v4: htdemucs_6s则在标准4分轨的基础上加上了钢琴轨和吉他轨。\n下载好模型后，回到主界面，左侧的CHOOSE PROCESS METHOD和CHOOSE XXX MODEL可以选择你要使用的模型。 点击上方的Select Input按钮选择你要分离人声和伴奏的歌曲文件，Select Output按钮设置存放输出文件的目录。其他一些剩余功能，可以根据自己的实际情况进行设置。将鼠标悬停在设置项的名称上可以查看说明。 由于我的显卡只有8GB显存，如果使用BS-Roformer-Viperx-1297模型的话，还需要修改一下模型本身的配置文件，否则会爆显存然后软件报错。在左侧选择模型的下拉菜单里，点击Open Model Folder打开模型的文件夹，然后打开model_data\\mdx_c_configs文件夹里的model_bs_roformer_ep_317_sdr_12.9755.yaml（可以使用记事本打开），然后将chunk_size: 352800这一项改为chunk_size: 132300，这样可以降低每次需要存放到显存中进行计算的数据量。\n最后点击UVR5主界面下方的Start Processing并等待处理完毕，就可以在输出文件目录里看到分离好的歌曲人声和伴奏了。\n",
   "wordCount" : "1040",
   "inLanguage": "zh",
   "datePublished": "2025-11-30T13:39:44+08:00",
@@ -187,9 +187,9 @@
 <img alt="模型下载中心" loading="lazy" src="/posts/uvr5-separating-vocals-and-accompaniment/download_center.webp" title="模型下载中心"></p>
 <p>询问了一下Gemini，得到如下回答，仅供参考。</p>
 <p>如果想要最通用、最平衡的人声伴奏分离，可以选择<strong>MDX-Net</strong>架构中的<strong>Roformer Model: BS-Roformer-Viperx-1297</strong></p>
-<p>想要最干净的伴奏可以选择<strong>Roformer Model: MelBand Reformer Kim | Inst V2 by Unwa</strong></p>
-<p>做伴奏，同时保留和声可以选择<strong>Roformer Model: Karaoke MelBand Reformer | (by aufr33 &amp; vipex)</strong></p>
-<p>去混响/去回声可以选择<strong>Roformer Model: BS Reformer Dereverb | (anvview edition)</strong></p>
+<p>想要最干净的伴奏可以选择<strong>Roformer Model: MelBand Roformer Kim | Inst V2 by Unwa</strong></p>
+<p>做伴奏，同时保留和声可以选择<strong>Roformer Model: Karaoke MelBand Roformer | (by aufr33 &amp; vipex)</strong></p>
+<p>去混响/去回声可以选择<strong>Roformer Model: BS Roformer Dereverb | (anvview edition)</strong></p>
 <p>如果想要将歌曲细分为不同乐器音轨，可以选择另一个<strong>Demucs</strong>架构。</p>
 <p><strong>Demucs v4: htdemucs_ft</strong>对标准的<strong>4分轨（鼓、贝斯、人声、其他）</strong> 来说效果是最好的。</p>
 <p><strong>Demucs v4: htdemucs_6s</strong>则在标准4分轨的基础上加上了<strong>钢琴轨</strong>和<strong>吉他轨</strong>。</p>
@@ -207,6 +207,11 @@
     <ul class="post-tags">
     </ul>
 <nav class="paginav">
+  <a class="prev" href="https://rradon.pages.dev/posts/2025-annual-summary/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>2025年度总结</span>
+  </a>
   <a class="next" href="https://rradon.pages.dev/posts/add-comments-pictures/">
     <span class="title">下一页 »</span>
     <br>

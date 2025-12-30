@@ -6,8 +6,15 @@
     <description>Recent content in 文章 on RRadon&#39;s Blog</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 30 Nov 2025 13:39:44 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 16:29:28 +0800</lastBuildDate>
     <atom:link href="https://rradon.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025年度总结</title>
+      <link>https://rradon.pages.dev/posts/2025-annual-summary/</link>
+      <pubDate>Sun, 28 Dec 2025 16:29:28 +0800</pubDate>
+      <guid>https://rradon.pages.dev/posts/2025-annual-summary/</guid>
+      <description>感觉更像是在闲聊</description>
+    </item>
     <item>
       <title>使用Ultimate Vocal Remover v5提取歌曲的人声和伴奏</title>
       <link>https://rradon.pages.dev/posts/uvr5-separating-vocals-and-accompaniment/</link>

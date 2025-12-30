@@ -24,11 +24,11 @@ Ultimate Vocal Remover可以使用AI技术，将歌曲或音频的人声、伴�
 
 如果想要最通用、最平衡的人声伴奏分离，可以选择**MDX-Net**架构中的**Roformer Model: BS-Roformer-Viperx-1297**
 
-想要最干净的伴奏可以选择**Roformer Model: MelBand Reformer Kim | Inst V2 by Unwa**
+想要最干净的伴奏可以选择**Roformer Model: MelBand Roformer Kim | Inst V2 by Unwa**
 
-做伴奏，同时保留和声可以选择**Roformer Model: Karaoke MelBand Reformer | (by aufr33 & vipex)**
+做伴奏，同时保留和声可以选择**Roformer Model: Karaoke MelBand Roformer | (by aufr33 & vipex)**
 
-去混响/去回声可以选择**Roformer Model: BS Reformer Dereverb | (anvview edition)**
+去混响/去回声可以选择**Roformer Model: BS Roformer Dereverb | (anvview edition)**
 
 
 如果想要将歌曲细分为不同乐器音轨，可以选择另一个**Demucs**架构。
