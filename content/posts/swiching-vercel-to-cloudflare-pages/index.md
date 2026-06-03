@@ -3,7 +3,7 @@ date = '2025-09-21T08:52:54+08:00'
 draft = false
 title = '切换为Cloudflare Pages托管'
 summary = 'Vercel的默认域名被墙力'
-categories = '更新维护日志'
+categories = '博客维护'
 +++
 
 原本部署到了Vercel上托管，但Vercel的默认域名在国内被墙了，导致必须使用魔法才能访问（/TДT)/
