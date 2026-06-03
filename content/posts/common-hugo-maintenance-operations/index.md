@@ -14,7 +14,7 @@ categories: '博客维护'
 - [**Hugo**](https://gohugo.io/documentation/)  
   - 安装方式：下载 [**GitHub Release**](https://github.com/gohugoio/hugo/releases) 中的文件直接安装  
   - 更新：直接使用新版本文件进行覆盖  
-  **修改Hugo版本后，需在Cloudflare Pages的环境变量中指定新的Hugo版本**
+  **修改 Hugo 版本后，需在 Cloudflare Pages 的环境变量中指定新的 Hugo 版本**
   - Windows 终端：[**PowerShell 7**](https://gohugo.io/getting-started/quick-start/#commands)  
 - [**PaperMod**](https://github.com/adityatelange/hugo-PaperMod/wiki)  
   - 安装方式：[**Git Submodule**](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#installingupdating-papermod)  
