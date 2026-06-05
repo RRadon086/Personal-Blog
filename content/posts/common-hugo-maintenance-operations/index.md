@@ -30,13 +30,13 @@ categories: '博客维护'
   git rm -rf --cached public
   ```  
   - 将 **public** 目录加入 **.gitignore** 黑名单  
-    - 在站点根目录下，找到 **.gitignore** 文件或新建该文件  
-    - 用记事本在文件最末尾新起一行，加上 `public/` 并保存  
-    - 使用 `git add` 命令将 .gitignore 文件加入**缓存区**  
+    1. 在站点根目录下，找到 **.gitignore** 文件或新建该文件  
+    2. 用记事本在文件最末尾新起一行，加上 `public/` 并保存  
+    3. 使用 `git add` 命令将 .gitignore 文件加入**缓存区**  
     ```cmd
     git add .gitignore
     ```  
-    - 检查最终结果  
+    4. 检查最终结果  
     ```cmd
     git status
     ```  
@@ -211,6 +211,13 @@ hugo server -D
       - BBB
       - CCC
     ````  
+- **引用块**  
+  - 在段落开头使用 `>` 符号，然后后面紧跟一个**空格**符号  
+  ```markdown
+  > AAA
+  > BBB
+  > CCC
+  ```
 
 ---
 ## 使用 Git 提交至 GitHub 仓库并部署  
@@ -261,6 +268,8 @@ master 为主分支的名称，也可能是 main
 ---
 ## 火狐浏览器快捷键  
 ~~*远离鼠标码字*~~  
+
+[官方文档](https://support.mozilla.org/zh-CN/kb/Firefox%20%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE)  
 - 关闭标签页 `Ctrl + W`  
 - 切换最近标签页 `Ctrl + Tab`  
 - 按对应位置切换标签页 `Ctrl + 数字键`  
@@ -271,3 +280,4 @@ master 为主分支的名称，也可能是 main
 - 转到上一页 `Alt + ←`  
 - 启用或禁用光标浏览 `F7`  
 可在页面中插入闪烁的选择光标  
+- 定位到地址栏 `Ctrl` + `L`  
