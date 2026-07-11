@@ -10,12 +10,6 @@ outputs:
   - RSS
   - JSON
 
-caches:
-
-  images:
-
-    dir: :cacheDir/images
-    
 params:
 
   defaultTheme: auto
