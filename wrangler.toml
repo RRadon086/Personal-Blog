@@ -1,9 +1,0 @@
-name = 'rradon'
-compatibility_date = '2026-07-12'
-
-[build]
-command = 'chmod a+x build.sh && ./build.sh'
-
-[assets]
-directory = './public'
-not_found_handling = '404-page'
