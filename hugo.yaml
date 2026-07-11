@@ -1,4 +1,4 @@
-baseURL: https://rradon.pages.dev/
+baseURL: https://rradon.dpdns.org
 defaultContentLanguage: zh
 locale: zh-CN
 title: RRadon's Blog
@@ -10,6 +10,12 @@ outputs:
   - RSS
   - JSON
 
+caches:
+
+  images:
+
+    dir: :cacheDir/images
+    
 params:
 
   defaultTheme: auto
