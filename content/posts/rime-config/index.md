@@ -103,6 +103,7 @@ categories: '折腾记录'
   4. 将该词库文件名重命名为 `moe.dict.yaml`  
   **未来添加其他自定义固定词库时，也需要将文件名与表头信息对应起来**  
   5. 打开 `rime_frost.custom.yaml` ，在 `patch:` 后追加一条内容  
+  
   ```yaml
   patch:
     translator/packs/+: #导入自定义固定词库
