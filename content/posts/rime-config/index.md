@@ -1,8 +1,8 @@
 ---
 date: '2026-06-05T20:30:22+08:00'
 draft: false
-title: 'Rime输入法配置'
-summary: '简单记录一下Rime输入法的配置'
+title: 'Rime 输入法配置'
+summary: '简单记录一下 Rime 输入法的配置'
 categories: '折腾记录'
 ---
 **前言：**  
@@ -64,7 +64,7 @@ categories: '折腾记录'
   1. 下载[**白霜拼音**](https://github.com/gaboolic/rime-frost)和[**万象语法模型**](https://github.com/amzxyz/RIME-LMDG)  
   2. 小企鹅输入法 App → 输入法 → 中州韵设置 → 用户数据目录 → 使用系统文件管理器打开  
   找到以下路径：  
-  `/storage/emulated/0/Android/data/org.fcitx.fcitx5.android/files/data/rime/`  
+  `/storage/emulated/0/Android/data/org.fcitx.fcitx5.android/files/data/rime`  
   3. 将下载好的白霜拼音和万象语法模型解压复制到这个文件夹中  
   4. 在该目录中新建一个 `rime_frost.custom.yaml` ，并输入以下内容：  
   或在其他位置创建好该文件，再复制到该目录
@@ -86,6 +86,29 @@ categories: '折腾记录'
   该过程需要编译大量文件，**请耐心等待**  
   部署完成后即可选择白霜拼音作为输入方案  
 
+### 自定义固定词库  
+- *以下内容参考自[**万象拼音项目文档**](https://amzxyz.github.io/rime-wanxiang/doc/dicts_sync/)*
+- 以[**萌娘百科词条词库**](https://github.com/suiginko/moetype)为例  
+  1. 由于白霜拼音的全拼默认词库是**不带声调**的，因此需要使用**无声调版本的词库**，即 [GitHub Releases 页面](https://github.com/suiginko/moetype/releases/)的 **`toneless_moe.dict.yaml`**  
+  2. 下载好后，将词库文件移动至 Rime 用户文件夹的根目录
+  3. 打开该词库文件，查看表头信息：  
+  ```yaml
+  ---
+  name: moe
+  sort: by_weight
+  version: "0.3.6"
+  ...
+  ```
+  其中 `name: moe` 为该词库的名称  
+  4. 将该词库文件名重命名为 `moe.dict.yaml`  
+  **未来添加其他自定义固定词库时，也需要将文件名与表头信息对应起来**  
+  5. 打开 `rime_frost.custom.yaml` ，在 `patch:` 后追加一条内容  
+  ```yaml
+  patch:
+    translator/packs/+: #导入自定义固定词库
+    - moe  # 这里写词库名称，不要带dict.yaml
+  ```
+  6. 保存后点击重新部署
 ---  
 ### 关于数据同步  
 - 在 Windows 端小狼毫输入法的用户文件夹中，找到 `installation.yaml` 文件  
@@ -105,7 +128,7 @@ categories: '折腾记录'
 ### 注意！  
 因为**高版本 Android 系统权限的限制**，在未 Root 的情况下，某些同步工具可能无法正常读写 `Android/data` 目录  
 而小企鹅输入法并不支持将 `Android/data` 外的公共目录设定为同步目录，因此请使用支持 **SAF** 框架的同步工具  
-或考虑更换[**同文输入法**](https://github.com/osfans/trime)，该输入法会在上级目录 `/storage/emulated/0/` 中创建用户文件夹，可以被同步工具正常读写  
+或考虑更换[**同文输入法**](https://github.com/osfans/trime)，该输入法会在上级目录 `/storage/emulated/0` 中创建用户文件夹，可以被同步工具正常读写  
 > *因为输入法没有存储权限，所以不支持自定义 sync_dir ，请考虑使用支持 SAF 的目录同步工具，如 [FolderSync](https://foldersync.io/) ，或者使用 root 权限运行 syncthing 以访问输入法的数据目录。*  
 > 
 > — *[GitHub Issue #452](https://github.com/fcitx5-android/fcitx5-android/issues/452)*  
