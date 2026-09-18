@@ -59,7 +59,7 @@ categories: '折腾记录'
 在小企鹅输入法的**附加组件**页面中勾选**中州韵**，并在**输入法**页面中添加**中州韵**  
 - 配置词库和模型  
 
-  - *以下内容参考自[**万象拼音项目文档**](https://amzxyz.github.io/doc/fcitx5-android/)*  
+  - *以下内容参考自[**万象拼音项目文档**](https://amzxyz.github.io/rime-wanxiang/doc/fcitx5-android/)*  
 
   1. 下载[**白霜拼音**](https://github.com/gaboolic/rime-frost)和[**万象语法模型**](https://github.com/amzxyz/RIME-LMDG)  
   2. 小企鹅输入法 App → 输入法 → 中州韵设置 → 用户数据目录 → 使用系统文件管理器打开  
@@ -81,7 +81,7 @@ categories: '折腾记录'
     translator/max_homographs: 2
   ```
   - 注意：**谨慎使用 MT 管理器导入文件！尽量使用手机自带的官方文件管理器！**  
-  具体原因请查阅[此文档中的说明](https://amzxyz.github.io/doc/fcitx5-android/)  
+  具体原因请查阅[此文档中的说明](https://amzxyz.github.io/rime-wanxiang/doc/fcitx5-android/)  
   5. 唤出键盘，在设置菜单中点击**重载配置**和**重新部署**  
   该过程需要编译大量文件，**请耐心等待**  
   部署完成后即可选择白霜拼音作为输入方案  
