@@ -7,7 +7,7 @@ categories: '折腾记录'
 ---
 [**Spark**](https://www.mcmod.cn/class/4073.html) 是用于 **Minecraft** 客户端、服务端的性能分析插件/模组，可以帮助寻找游戏卡顿的原因。但生成检测结果后，官方网页查看器里的数据内容太过于专业，对小白来说非常不友好。  
 现在有了非常方便的 AI，因此可以借助 AI 来分析 Spark 的检测报告，给出简单易懂的解读。  
-笔者 **Vibe Coding** 了一个工具，可以更方便地让 AI 阅读并分析 Spark 的检测结果报告。
+笔者 **Vibe Coding** 了一个开源小工具，可以更方便地让 AI 阅读并分析 Spark 的检测结果报告。
 
 ---
 ## 工具的制作背景
@@ -55,16 +55,16 @@ categories: '折腾记录'
 **工具的使用方法**见 GitHub 仓库里的 [**`app/USAGE.md`**](https://github.com/RRadon086/spark-report-converter/blob/main/app/USAGE.md)，或下载解压后文件夹里的 **`使用说明.pdf`**  
 
 ### 注意事项：
-- **本工具的代码完全由 AI 生成**。  
-	虽然已进行 AI 自动化测试和真实样本验证，但测试环境与样本范围有限，仍可能存在尚未发现或未被现有测试覆盖的问题。  
-	如果你需要经过更广泛验证的方案，可以选择其他的社区工具。  
+- **本工具完全使用 AI 制作生成**  
+	虽然已进行 AI 自动化测试和真实样本验证，但测试环境与样本范围有限，仍可能存在尚未发现或未被现有测试覆盖的问题  
+	如果你需要经过更广泛验证的方案，可以选择其他的社区工具  
 - 仅对 **Forge** / **NeoForge** 平台进行了测试，其他模组加载器和插件服务端**未进行测试**，实际效果未知
-- 仅支持 Spark 性能采样器的 **`.sparkprofile`** 文件，不支持 heap、health、Spark 网页链接或批量转换
-- 如果可以的话，尽量使用多个不同的 AI 进行分析解读，**一个 AI 找问题可能不够全面**  
-- AI 结论并不是百分百正确，执行指令、修改配置或文件前，**一定要先进行备份！**
+- 仅支持 Spark **性能采样器**的 **`.sparkprofile`** 文件，不支持 heap、health、Spark 网页链接或批量转换
+- 如果可以的话，**尽量使用多个不同的 AI 进行分析解读**，一个 AI 找问题可能不够全面  
+- AI 给出的结论并不是百分百正确，执行指令、修改配置或文件前，**一定要先进行备份！**
 
 ### 提示词：  
-以下是笔者让 AI 生成的一份提示词模板，**仅供参考**，也可以在此基础上修改为适合自己的版本。  
+以下是笔者让 AI 生成的一份提示词模板，**仅供参考**，也可以修改为适合自己的版本。  
 ```text
 我是一个 Minecraft 小白玩家。这是我用 Spark 模组生成的性能检测报告，请完整阅读后用通俗易懂、容易理解的中文语言分析。如果无法完整读取，请直接告诉我。  
 我的游戏环境是：（单人游戏 / 联机服务器）  
@@ -78,11 +78,11 @@ categories: '折腾记录'
 ---
 ## 参考资料与鸣谢  
 详细的**参考项目说明**请查阅 GitHub 仓库里的 [**`app/NOTICE.md`**](https://github.com/RRadon086/spark-report-converter/blob/main/app/NOTICE.md)，或下载解压后文件夹里的 **`来源与许可证说明.pdf`**  
-- [Spark 官方文档](https://spark.lucko.me/docs)  
+- [**Spark 官方文档**](https://spark.lucko.me/docs)  
 	- 如果需要 Spark 模组本身的使用说明，请优先查阅它  
-- [FastMirror-MC/spark-viewer-extract](https://github.com/FastMirror-MC/spark-viewer-extract)  
-	- 精简摘要、缩减体积的实现复用了此项目的源代码，非常非常感谢该作者
-	- 因为该项目输出的检测报告有点过于精简了，缺少一些硬件配置、实体、区块等信息  
-	于是笔者便让 AI 把 Spark 原始数据中的完整 **metadata** 信息合并了进来  
+- [**FastMirror-MC/spark-viewer-extract**](https://github.com/FastMirror-MC/spark-viewer-extract)  
+	- 精简摘要、缩减体积的实现复用了此项目的源代码，**非常非常感谢该作者**
+	- 因为输出的检测报告有些过于精简，缺少一些硬件配置、实体、区块等信息  
+	于是笔者便让 AI 把 Spark 原始数据中的完整 **metadata** 信息合并进来了  
 		- 也就是前文所述的**只使用 `?raw=1` 参数得到的 JSON 文件**
 		- 缺点是文件体积可能会稍微增大一点点
